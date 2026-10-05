@@ -135,3 +135,28 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_storage_type_buffer.storage_buffer_help_message_other_locations
 msgid "other locations."
 msgstr "інші місця."
+
+#. module: stock_storage_type_buffer
+#: model:ir.model.fields,help:stock_storage_type_buffer.field_stock_location_storage_buffer__buffer_location_ids
+msgid ""
+"Buffers where goods are temporarily stored. When all these locations contain"
+" goods or will receive goods, the destination locations are not available "
+"for putaway."
+msgstr ""
+"Буферні локації, де товари тимчасово зберігаються. Коли всі ці локації "
+"містять або мають отримати товари, цільові локації недоступні для "
+"розміщення."
+
+#. module: stock_storage_type_buffer
+#: model:ir.model.fields,help:stock_storage_type_buffer.field_stock_location_storage_buffer__location_ids
+msgid ""
+"Destination locations (including sublocations) that will be unreachable for "
+"putaway if the buffers are full."
+msgstr ""
+"Місця призначення (включно з підмісцями), недоступні для розміщення, якщо "
+"буфери заповнені."
+
+#. module: stock_storage_type_buffer
+#: model:ir.model,name:stock_storage_type_buffer.model_stock_location_storage_buffer
+msgid "Location Storage Buffer"
+msgstr "Буфер зберігання місця"

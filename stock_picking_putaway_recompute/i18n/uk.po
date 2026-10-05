@@ -41,3 +41,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_putaway_recompute.stock_picking_form_view
 msgid "Click this if you want to recompute destination locations"
 msgstr "Натисніть, якщо хочете перерахувати місця призначення"
+
+#. module: stock_picking_putaway_recompute
+#: model:ir.model.fields,help:stock_picking_putaway_recompute.field_stock_picking_type__allow_to_recompute_putaways
+msgid ""
+"Check this if you want to authorize putaways recomputations for the "
+"operations of this type."
+msgstr ""
+"Позначте, якщо потрібно дозволити повторний розрахунок розміщення для "
+"операцій цього типу."
+
+#. module: stock_picking_putaway_recompute
+#: model:ir.model.fields,help:stock_picking_putaway_recompute.field_stock_picking__can_recompute_putaways
+msgid "Technical field in order to display the Recompute Putaways button."
+msgstr "Технічне поле для відображення кнопки «Перерахувати розміщення»."

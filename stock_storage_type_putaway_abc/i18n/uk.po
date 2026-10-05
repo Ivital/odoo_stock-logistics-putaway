@@ -39,3 +39,14 @@ msgstr "Налаштування зберігання ABC"
 #: model:ir.model.fields,field_description:stock_storage_type_putaway_abc.field_stock_location__display_abc_storage
 msgid "Display Abc Storage"
 msgstr "Показувати ABC-зберігання"
+
+#. module: stock_storage_type_putaway_abc
+#: model:ir.model.fields,help:stock_storage_type_putaway_abc.field_stock_location__pack_putaway_strategy
+msgid ""
+"This defines the storage strategy based on package type to use when a product or package is put away in this location.\n"
+"None: when moved to this location, it will not be put away any further.\n"
+"Ordered Children Locations: when moved to this location, a suitable location will be searched in its children locations according to the restrictions defined on their respective storage category."
+msgstr ""
+"Визначає стратегію зберігання за типом пакування під час розміщення товару або пакунка в цьому місці.\n"
+"Немає: після переміщення сюди подальше розміщення не виконується.\n"
+"Впорядковані дочірні місця: відповідне місце шукається серед дочірніх відповідно до обмежень їхніх категорій зберігання."

@@ -360,3 +360,154 @@ msgstr "Послідовності місць зберігання"
 #: model:ir.model.fields,help:stock_storage_type.field_stock_storage_category__max_weight_in_kg
 msgid "Technical field, to speed up comparaisons"
 msgstr "Технічне поле для прискорення порівнянь"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_storage_category_allow_new_product__condition_ids
+msgid "All conditions have to match to apply the Allow New Product policy."
+msgstr ""
+"Для застосування політики «Дозволити новий товар» мають виконуватися всі "
+"умови."
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_storage_location_sequence__location_sequence_cond_ids
+msgid "All conditions have to match to apply the put-away strategy."
+msgstr "Для застосування стратегії розміщення мають виконуватися всі умови."
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__package_type_putaway_sequence
+msgid ""
+"Allow to sort the valid locations by sequence for the storage strategy based"
+" on package type"
+msgstr ""
+"Дозволяє сортувати допустимі місця розташування за послідовністю для "
+"стратегії зберігання на основі типу пакування"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_package_type__height_required
+msgid "Height is mandatory for packages configured with this package type."
+msgstr ""
+"Висота є обов’язковою для пакунків, налаштованих із цим типом пакування."
+
+#. module: stock_storage_type
+#: model:ir.model.constraint,message:stock_storage_type.constraint_stock_storage_category_positive_max_height
+msgid "Max height should be a positive number."
+msgstr "Максимальна висота має бути додатним числом."
+
+#. module: stock_storage_type
+#: model:ir.model,name:stock_storage_type.model_stock_storage_condition_mixin
+msgid "Mixin to implement storage condition."
+msgstr "Міксин реалізації умов зберігання."
+
+#. module: stock_storage_type
+#: model:ir.model,name:stock_storage_type.model_stock_storage_location_sequence
+msgid "Sequence of locations to put-away the package type"
+msgstr "Послідовність місць для розміщення типу пакування"
+
+#. module: stock_storage_type
+#: model:ir.model,name:stock_storage_type.model_stock_storage_category_allow_new_product_cond
+msgid "Stock Storage Category Allow New Product Condition"
+msgstr "Умова дозволу нового товару категорії зберігання"
+
+#. module: stock_storage_type
+#: model:ir.model,name:stock_storage_type.model_stock_storage_location_sequence_cond
+msgid "Stock Storage Location Sequence Condition"
+msgstr "Умова послідовності місця зберігання запасів"
+
+#. module: stock_storage_type
+#: model:ir.model.constraint,message:stock_storage_type.constraint_stock_storage_location_sequence_cond_name
+msgid "Stock storage location sequence condition name must be unique"
+msgstr ""
+"Назва умови послідовності місця складського зберігання має бути унікальною"
+
+#. module: stock_storage_type
+#: model:ir.model.constraint,message:stock_storage_type.constraint_stock_storage_category_allow_new_product_cond_name
+msgid "Storage Category Allow New Product Condition name must be unique"
+msgstr ""
+"Назва умови «Дозволити новий товар» категорії зберігання має бути унікальною"
+
+#. module: stock_storage_type
+#: model:ir.model,name:stock_storage_type.model_stock_storage_category_allow_new_product
+msgid "Storage Category Allow New Product Rule"
+msgstr "Правило дозволу нового товару категорії зберігання"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_storage_category__has_restrictions
+msgid "Technical: This is used to check if we need to display warning message"
+msgstr ""
+"Технічне: використовується для перевірки, чи потрібно показувати "
+"попередження"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__max_height
+#: model:ir.model.fields,help:stock_storage_type.field_stock_storage_category__max_height
+msgid "The max height supported for this storage category."
+msgstr "Максимальна висота, що підтримується для цієї категорії зберігання."
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__pack_putaway_strategy
+#: model:ir.model.fields,help:stock_storage_type.field_stock_storage_location_sequence__location_putaway_strategy
+msgid ""
+"This defines the storage strategy based on package type to use when a product or package is put away in this location.\n"
+"None: when moved to this location, it will not be put away any further.\n"
+"Ordered Children Locations: when moved to this location, a suitable location will be searched in its children locations according to the restrictions defined on their respective storage category."
+msgstr ""
+"Визначає стратегію зберігання за типом пакування під час розміщення товару або пакунка в цьому місці.\n"
+"Немає: після переміщення сюди подальше розміщення не виконується.\n"
+"Впорядковані дочірні місця: відповідне місце шукається серед дочірніх відповідно до обмежень їхніх категорій зберігання."
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__computed_storage_category_id
+msgid ""
+"This represents the Storage Category that will be used. It depends either on"
+" the category set on the location or on one of its parent."
+msgstr ""
+"Це категорія зберігання, яка використовуватиметься. Вона залежить або від "
+"категорії, заданої для локації, або від категорії одного з її батьків."
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__has_potential_lot_mix_exception
+msgid ""
+"This will represent a situation where several moves are pointingto the "
+"location for different product lots and the location doesnot allow mixed "
+"lots."
+msgstr ""
+"Це представляє ситуацію, коли кілька переміщень спрямовані до локації для "
+"різних партій товарів, а локація не дозволяє змішувати партії."
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__has_potential_product_mix_exception
+msgid ""
+"This will represent a situation where several moves are pointingto the "
+"location for different products and the location doesnot allow mixed "
+"products."
+msgstr ""
+"Це представляє ситуацію, коли кілька переміщень спрямовані до локації для "
+"різних товарів, а локація не дозволяє змішувати товари."
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__leaf_location_ids
+msgid "technical field: all the leaves locations"
+msgstr "технічне поле: усі місця відпусток"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__leaf_child_location_ids
+msgid "technical field: all the leaves sub-locations"
+msgstr "технічне поле: усі підмісця відпусток"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__location_will_contain_product_ids
+msgid ""
+"technical field: list of products in the location, either now or in pending "
+"operations"
+msgstr ""
+"технічне поле: список товарів у місці розташування зараз або в очікуваних "
+"операціях"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__location_will_contain_lot_ids
+msgid ""
+"technical field: list of stock.lots in the location, either now or in "
+"pending operations"
+msgstr ""
+"технічне поле: список stock.lot у місці розташування зараз або в очікуваних "
+"операціях"
