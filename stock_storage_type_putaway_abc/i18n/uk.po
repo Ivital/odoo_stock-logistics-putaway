@@ -19,3 +19,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_storage_type_putaway_abc.field_stock_location__abc_storage
 msgid "Abc Storage"
 msgstr "ABC-сховище"
+
+#. module: stock_storage_type_putaway_abc
+#: model:ir.model.fields.selection,name:stock_storage_type_putaway_abc.selection__stock_location__pack_putaway_strategy__abc
+msgid "Chaotic ABC"
+msgstr "Хаотичний ABC"
+
+#. module: stock_storage_type_putaway_abc
+#: model:ir.model.fields,field_description:stock_storage_type_putaway_abc.field_stock_location__pack_putaway_strategy
+msgid "Put-Away Strategy"
+msgstr "Стратегія розміщення"

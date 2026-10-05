@@ -54,3 +54,38 @@ msgstr "Розташування"
 #: model:ir.ui.menu,name:stock_storage_type_buffer.stock_location_storage_buffer_menu
 msgid "Storage Buffers"
 msgstr "Буфери сховища"
+
+#. module: stock_storage_type_buffer
+#: model_terms:ir.ui.view,arch_db:stock_storage_type_buffer.storage_buffer_help_message_other_locations
+msgid "... and"
+msgstr "... і"
+
+#. module: stock_storage_type_buffer
+#: model:ir.model.fields,field_description:stock_storage_type_buffer.field_stock_location_storage_buffer__buffer_location_ids
+msgid "Buffer Location"
+msgstr "Буферне місце"
+
+#. module: stock_storage_type_buffer
+#: model_terms:ir.ui.view,arch_db:stock_storage_type_buffer.location_storage_buffer_form_view
+msgid "Buffer Locations"
+msgstr "Буферні місця"
+
+#. module: stock_storage_type_buffer
+#: model:ir.model.fields,field_description:stock_storage_type_buffer.field_stock_location_storage_buffer__help_message
+msgid "Help Message"
+msgstr "Повідомлення довідки"
+
+#. module: stock_storage_type_buffer
+#: model:ir.model.fields,field_description:stock_storage_type_buffer.field_stock_location_storage_buffer__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_storage_type_buffer
+#: model:ir.model.fields,field_description:stock_storage_type_buffer.field_stock_location_storage_buffer__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_storage_type_buffer
+#: model:ir.model.fields,field_description:stock_storage_type_buffer.field_stock_location__storage_buffer_ids
+msgid "Storage Buffer"
+msgstr "Буфер зберігання"

@@ -122,3 +122,131 @@ msgstr "Умови послідовності складських розташ�
 #: model:ir.ui.menu,name:stock_storage_type.storage_type_menu
 msgid "Storage Types"
 msgstr "Типи сховищ"
+
+#. module: stock_storage_type
+#: model_terms:ir.ui.view,arch_db:stock_storage_type.stock_storage_category_form
+msgid "Advanced"
+msgstr "Розширений"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__allow_new_product_ids
+#: model_terms:ir.ui.view,arch_db:stock_storage_type.stock_storage_category_form
+msgid "Allow New Product Rules"
+msgstr "Дозволити правила нового товару"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category_allow_new_product_cond__code_snippet_docs
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_condition_mixin__code_snippet_docs
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_location_sequence_cond__code_snippet_docs
+msgid "Code Snippet Docs"
+msgstr "Документація фрагмента коду"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category_allow_new_product_cond__condition_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_condition_mixin__condition_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_location_sequence_cond__condition_type
+msgid "Condition Type"
+msgstr "Тип умови"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__do_not_mix_lots
+msgid "Do Not Mix Lots"
+msgstr "Не змішувати лоти"
+
+#. module: stock_storage_type
+#: model:ir.model.fields.selection,name:stock_storage_type.selection__stock_storage_category_allow_new_product_cond__condition_type__code
+#: model:ir.model.fields.selection,name:stock_storage_type.selection__stock_storage_condition_mixin__condition_type__code
+#: model:ir.model.fields.selection,name:stock_storage_type.selection__stock_storage_location_sequence_cond__condition_type__code
+msgid "Execute code"
+msgstr "Виконати код"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__has_restrictions
+msgid "Has Restrictions"
+msgstr "Має обмеження"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category_allow_new_product__write_uid
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category_allow_new_product_cond__write_uid
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_location_sequence__write_uid
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_location_sequence_cond__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category_allow_new_product__write_date
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category_allow_new_product_cond__write_date
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_location_sequence__write_date
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_location_sequence_cond__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__leaf_location_ids
+msgid "Leaf Location"
+msgstr "Кінцеве місце зберігання"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__max_height_in_m
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__max_height_in_m
+msgid "Max Height In M"
+msgstr "Максимальна висота, м"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__max_weight_in_kg
+msgid "Max Weight In Kg"
+msgstr "Макс. вага, кг"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__max_height
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__max_height
+msgid "Max height (mm)"
+msgstr "Максимальна висота (мм)"
+
+#. module: stock_storage_type
+#: model:ir.model.fields.selection,name:stock_storage_type.selection__stock_location__pack_putaway_strategy__none
+msgid "None"
+msgstr "Немає"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_package_type__product_packaging_ids
+msgid "Product Packaging"
+msgstr "Пакування товару"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__pack_putaway_strategy
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_location_sequence__location_putaway_strategy
+msgid "Put-Away Strategy"
+msgstr "Стратегія розміщення"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_package_type__storage_location_sequence_ids
+#: model_terms:ir.ui.view,arch_db:stock_storage_type.stock_package_type_form
+msgid "Put-Away sequence"
+msgstr "Послідовність розміщення"
+
+#. module: stock_storage_type
+#: model_terms:ir.ui.view,arch_db:stock_storage_type.package_storage_location_tree_view
+msgid "Show locations"
+msgstr "Показувати місця"
+
+#. module: stock_storage_type
+#: model:ir.model,name:stock_storage_type.model_stock_storage_category
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category_allow_new_product__storage_category_id
+msgid "Storage Category"
+msgstr "Категорія сховища"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_storage_category__weight_uom_id
+msgid "Weight Unit of Measure"
+msgstr "Одиниця вимірювання ваги"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__weight_uom_id
+msgid "Weight Units of Measure"
+msgstr "Одиниці вимірювання ваги"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__weight_uom_name
+msgid "Weight unit of measure label"
+msgstr "Мітка одиниці вимірювання ваги"
