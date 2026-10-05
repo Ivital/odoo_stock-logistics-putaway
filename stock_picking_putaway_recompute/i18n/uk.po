@@ -55,3 +55,13 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_putaway_recompute.field_stock_picking__can_recompute_putaways
 msgid "Technical field in order to display the Recompute Putaways button."
 msgstr "Технічне поле для відображення кнопки «Перерахувати розміщення»."
+
+#. module: stock_picking_putaway_recompute
+#. odoo-python
+#: code:addons/stock_picking_putaway_recompute/models/stock_move_line.py:0
+msgid ""
+"Recomputation of putaway is not allowed if not all move lines with same "
+"destination package were selected."
+msgstr ""
+"Перерахунок розміщення не дозволений, якщо вибрано не всі рядки переміщення "
+"з тим самим пакуванням призначення."

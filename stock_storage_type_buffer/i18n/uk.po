@@ -160,3 +160,14 @@ msgstr ""
 #: model:ir.model,name:stock_storage_type_buffer.model_stock_location_storage_buffer
 msgid "Location Storage Buffer"
 msgstr "Буфер зберігання місця"
+
+#. module: stock_storage_type_buffer
+#. odoo-python
+#: code:addons/stock_storage_type_buffer/models/stock_location_storage_buffer.py:0
+msgid ""
+"<p>Select buffer locations and locations blocked for putaways when the "
+"buffer locations already contain goods or have move lines reaching them.</p>"
+msgstr ""
+"<p>Виберіть буферні місця та місця, заблоковані для розміщення, коли буферні"
+" місця вже містять товари або мають рядки переміщення, що прямують до "
+"них.</p>"

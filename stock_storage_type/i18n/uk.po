@@ -511,3 +511,93 @@ msgid ""
 msgstr ""
 "технічне поле: список stock.lot у місці розташування зараз або в очікуваних "
 "операціях"
+
+#. module: stock_storage_type
+#. odoo-python
+#: code:addons/stock_storage_type/models/stock_package_type.py:0
+msgid ""
+"<span style=\"color: red;\">The \"Put-Away sequence\" must be defined in "
+"order to put away packages using this package type ({storage}).</span>"
+msgstr ""
+"<span style=\"color: red;\">Для розміщення пакувань цього типу ({storage}) "
+"потрібно визначити «Послідовність розміщення».</span>"
+
+#. module: stock_storage_type
+#. odoo-python
+#: code:addons/stock_storage_type/models/stock_storage_condition_mixin.py:0
+msgid "Condition type is set to `Code`: you must provide a piece of code"
+msgstr "Тип умови встановлено на `Code`: потрібно надати фрагмент коду"
+
+#. module: stock_storage_type
+#. odoo-python
+#: code:addons/stock_storage_type/models/stock_quant.py:0
+msgid "Package type {storage} is not allowed into Location {location}"
+msgstr "Тип пакування {storage} не дозволено в місці {location}"
+
+#. module: stock_storage_type
+#. odoo-python
+#: code:addons/stock_storage_type/models/stock_quant.py:0
+msgid ""
+"Package {package} is not allowed into location {location}, because there isn't any rules that allows package type {type} into it:\n"
+"\n"
+"{error}"
+msgstr ""
+"Пакування {package} не дозволене в місці {location}, оскільки немає правил, що дозволяють тип пакування {type}:\n"
+"\n"
+"{error}"
+
+#. module: stock_storage_type
+#. odoo-python
+#: code:addons/stock_storage_type/models/stock_package_type.py:0
+msgid "Put-away sequence"
+msgstr "Послідовність розміщення"
+
+#. module: stock_storage_type
+#. odoo-python
+#: code:addons/stock_storage_type/models/stock_quant.py:0
+msgid ""
+"Storage Category {category} defines max height of {max_h} but the package is"
+" bigger: {height}."
+msgstr ""
+"Категорія зберігання {category} задає макс. висоту {max_h}, але пакування "
+"вище: {height}."
+
+#. module: stock_storage_type
+#. odoo-python
+#: code:addons/stock_storage_type/models/stock_quant.py:0
+msgid ""
+"Storage Category {category} defines max weight of {max_w} but the package is"
+" heavier: {weight_kg}."
+msgstr ""
+"Категорія зберігання {category} задає макс. вагу {max_w}, але пакування "
+"важче: {weight_kg}."
+
+#. module: stock_storage_type
+#. odoo-python
+#: code:addons/stock_storage_type/models/stock_quant_package.py:0
+msgid "The height is mandatory on package {}."
+msgstr "Висота є обов’язковою для пакування {}."
+
+#. module: stock_storage_type
+#. odoo-python
+#: code:addons/stock_storage_type/models/stock_package_type.py:0
+msgid ""
+"When a package with type {name} is put away, the strategy will look for an "
+"allowed location in the following locations: <br/><br/>{message} "
+"<br/><br/><b>Note</b>: this happens as long as these locations <u>are "
+"children of the stock move destination location</u> or as long as these "
+"locations are children of the destination location after the (product or "
+"category) put-away is applied."
+msgstr ""
+"Коли пакунок типу {name} розміщується на зберігання, стратегія шукатиме "
+"дозволене місце серед таких місць: <br/><br/>{message} "
+"<br/><br/><b>Примітка</b>: це відбувається, доки ці місця <u>є дочірніми для"
+" місця призначення складського переміщення</u> або є дочірніми для місця "
+"призначення після застосування правила розміщення (товару чи категорії)."
+
+#. module: stock_storage_type
+#. odoo-python
+#: code:addons/stock_storage_type/models/stock_storage_category_allow_new_product_cond.py:0
+#: code:addons/stock_storage_type/models/stock_storage_location_sequence_cond.py:0
+msgid "code_snippet should return boolean value into `result` variable."
+msgstr "code_snippet має повертати логічне значення у змінну `result`."
