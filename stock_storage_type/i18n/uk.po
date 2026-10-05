@@ -250,3 +250,113 @@ msgstr "Одиниці вимірювання ваги"
 #: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__weight_uom_name
 msgid "Weight unit of measure label"
 msgstr "Мітка одиниці вимірювання ваги"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__allow_new_product
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category_allow_new_product__allow_new_product
+msgid "Allow New Product"
+msgstr "Дозволити новий товар"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_package_level__allowed_location_dest_ids
+msgid "Allowed Destinations"
+msgstr "Дозволені призначення"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__computed_location_ids
+msgid "Computed Location"
+msgstr "Обчислене місце"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__computed_storage_category_id
+msgid "Computed Storage Category"
+msgstr "Обчислена категорія зберігання"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__do_not_mix_products
+msgid "Do Not Mix Products"
+msgstr "Не змішувати товари"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__has_potential_lot_mix_exception
+msgid "Has Potential Lot Mix Exception"
+msgstr "Є потенційний виняток змішування партій"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__has_potential_product_mix_exception
+msgid "Has Potential Product Mix Exception"
+msgstr "Є потенційний виняток суміші товарів"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_package_type__height_required
+msgid "Height required for packages"
+msgstr "Для пакунків потрібна висота"
+
+#. module: stock_storage_type
+#: model:ir.model.fields.selection,name:stock_storage_type.selection__stock_storage_category__allow_new_product__same_lot
+msgid "If lots are all the same"
+msgstr "Якщо всі партії однакові"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__leaf_child_location_ids
+msgid "Leaf Child Location"
+msgstr "Кінцеве дочірнє місце"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__location_will_contain_lot_ids
+msgid "Location Will Contain Lot"
+msgstr "Місце міститиме партію"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__location_will_contain_product_ids
+msgid "Location Will Contain Product"
+msgstr "Місце міститиме товар"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_storage_category__length_uom_id
+msgid "Max height Unit of Measure"
+msgstr "Максимальна висота, одиниця виміру"
+
+#. module: stock_storage_type
+#: model:ir.model.fields.selection,name:stock_storage_type.selection__stock_location__pack_putaway_strategy__ordered_locations
+msgid "Ordered Children Locations"
+msgstr "Впорядковані дочірні місця"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_quant_package__pack_weight_in_kg
+msgid "Pack Weight In Kg"
+msgstr "Вага пакунка в кг"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__package_type_putaway_sequence
+msgid "Putaway Sequence"
+msgstr "Послідовність розміщення"
+
+#. module: stock_storage_type
+#: model_terms:ir.ui.view,arch_db:stock_storage_type.package_level_tree_view_picking_inherit
+msgid "Recompute Putaway"
+msgstr "Перерахувати розміщення"
+
+#. module: stock_storage_type
+#: model:ir.actions.act_window,name:stock_storage_type.stock_storage_location_sequence_cond_act_window
+msgid "Stock Storage Location Sequence Conditions"
+msgstr "Умови послідовності місць зберігання"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_package_type__storage_type_message
+msgid "Storage Type Message"
+msgstr "Повідомлення типу зберігання"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__storage_location_sequence_ids
+msgid "Storage locations sequences"
+msgstr "Послідовності місць зберігання"
+
+#. module: stock_storage_type
+#: model:ir.model.fields,help:stock_storage_type.field_stock_location__max_height_in_m
+#: model:ir.model.fields,help:stock_storage_type.field_stock_quant_package__height_in_m
+#: model:ir.model.fields,help:stock_storage_type.field_stock_quant_package__pack_weight_in_kg
+#: model:ir.model.fields,help:stock_storage_type.field_stock_storage_category__max_height_in_m
+#: model:ir.model.fields,help:stock_storage_type.field_stock_storage_category__max_weight_in_kg
+msgid "Technical field, to speed up comparaisons"
+msgstr "Технічне поле для прискорення порівнянь"

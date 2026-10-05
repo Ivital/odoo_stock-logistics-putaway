@@ -29,3 +29,13 @@ msgstr "Хаотичний ABC"
 #: model:ir.model.fields,field_description:stock_storage_type_putaway_abc.field_stock_location__pack_putaway_strategy
 msgid "Put-Away Strategy"
 msgstr "Стратегія розміщення"
+
+#. module: stock_storage_type_putaway_abc
+#: model_terms:ir.ui.view,arch_db:stock_storage_type_putaway_abc.product_template_form_view_inherit
+msgid "ABC Storage preference"
+msgstr "Налаштування зберігання ABC"
+
+#. module: stock_storage_type_putaway_abc
+#: model:ir.model.fields,field_description:stock_storage_type_putaway_abc.field_stock_location__display_abc_storage
+msgid "Display Abc Storage"
+msgstr "Показувати ABC-зберігання"

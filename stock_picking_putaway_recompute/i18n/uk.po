@@ -24,3 +24,20 @@ msgstr "Може перерахувати розміщення"
 #: model_terms:ir.ui.view,arch_db:stock_picking_putaway_recompute.view_stock_move_line_detailed_operation_tree
 msgid "Recompute Putaways"
 msgstr "Перерахувати розміщення"
+
+#. module: stock_picking_putaway_recompute
+#: model:ir.model.fields,field_description:stock_picking_putaway_recompute.field_stock_picking_type__allow_to_recompute_putaways
+msgid "Allow To Recompute Putaways"
+msgstr "Дозволити перерахунок розміщення"
+
+#. module: stock_picking_putaway_recompute
+#: model_terms:ir.ui.view,arch_db:stock_picking_putaway_recompute.view_stock_move_line_detailed_operation_tree
+msgid ""
+"Click this if you want to recompute destination location for this operation"
+msgstr ""
+"Натисніть, якщо хочете перерахувати місце призначення для цієї операції"
+
+#. module: stock_picking_putaway_recompute
+#: model_terms:ir.ui.view,arch_db:stock_picking_putaway_recompute.stock_picking_form_view
+msgid "Click this if you want to recompute destination locations"
+msgstr "Натисніть, якщо хочете перерахувати місця призначення"

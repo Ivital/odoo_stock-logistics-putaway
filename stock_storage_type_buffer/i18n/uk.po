@@ -89,3 +89,49 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:stock_storage_type_buffer.field_stock_location__storage_buffer_ids
 msgid "Storage Buffer"
 msgstr "Буфер зберігання"
+
+#. module: stock_storage_type_buffer
+#: model_terms:ir.ui.view,arch_db:stock_storage_type_buffer.storage_buffer_help_message
+msgid "<span>The buffer locations</span>"
+msgstr "<span>Буферні місця</span>"
+
+#. module: stock_storage_type_buffer
+#: model:ir.model.fields,field_description:stock_storage_type_buffer.field_stock_location__is_in_storage_buffer
+msgid "Is In Storage Buffer"
+msgstr "У буфері зберігання"
+
+#. module: stock_storage_type_buffer
+#: model_terms:ir.ui.view,arch_db:stock_storage_type_buffer.storage_buffer_help_message
+msgid ""
+"The buffers have no capacity because they all contain\n"
+"            goods or will contain goods due to move lines reaching them."
+msgstr ""
+"Буфери не мають вільної місткості, оскільки всі містять\n"
+"            товари або отримають товари через рядки переміщень, що надходять до них."
+
+#. module: stock_storage_type_buffer
+#: model_terms:ir.ui.view,arch_db:stock_storage_type_buffer.storage_buffer_help_message
+msgid ""
+"currently <strong>have capacity</strong>,\n"
+"            so the following locations\n"
+"            <strong>can receive putaways</strong>:"
+msgstr ""
+"наразі <strong>мають вільну місткість</strong>,\n"
+"            тому такі місця\n"
+"            <strong>можуть приймати розміщення</strong>:"
+
+#. module: stock_storage_type_buffer
+#: model_terms:ir.ui.view,arch_db:stock_storage_type_buffer.storage_buffer_help_message
+msgid ""
+"currently <strong>have no capacity</strong>,\n"
+"            so the following locations\n"
+"            <strong>cannot receive putaways</strong>:"
+msgstr ""
+"наразі <strong>не мають вільної місткості</strong>,\n"
+"            тому такі місця\n"
+"            <strong>не можуть приймати розміщення</strong>:"
+
+#. module: stock_storage_type_buffer
+#: model_terms:ir.ui.view,arch_db:stock_storage_type_buffer.storage_buffer_help_message_other_locations
+msgid "other locations."
+msgstr "інші місця."
